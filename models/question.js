@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// creating company model
+// creating queriesSchema model to store queries
 const queriesSchema = new mongoose.Schema({
   query: {
     type: String,
@@ -10,7 +10,7 @@ const queriesSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  tags: [{ type: mongoose.Schema.Types.ObjectId, ref: "Tags" }],
+  tags: [{ type: mongoose.Schema.Types.ObjectId, ref: "Tags" }], //storing all the reference of tag under these query
 });
 
 const Queries = mongoose.model("Queries", queriesSchema);

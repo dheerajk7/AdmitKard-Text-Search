@@ -1,14 +1,11 @@
 # Text Search
 
 It is a full stack text search app working as search bar for seaching query based on the tags and query string.
+This repository only contains API and React App is there at https://github.com/dheerajk7/admitKard-text-search-react-app.git .
 
 # Preview
 
-![preview image](./assets/images/preview.gif)
-
-### API Code Explaination Video at https://emart-77f69.web.app/
-
-### React App Code Explaination Video at https://emart-77f69.web.app/
+![preview image](./static/images/preview.gif)
 
 # API Routes
 
@@ -49,7 +46,7 @@ It is a full stack text search app working as search bar for seaching query base
    npm start
    ```
 
-4. Go to client directory which have react app inside project directory and run these commands to run react app
+4. Go to React APP (https://github.com/dheerajk7/admitKard-text-search-react-app) and clone that repository and run following commands to run react app
 
    #### To install node Modules
 
@@ -67,16 +64,23 @@ It is a full stack text search app working as search bar for seaching query base
 
 # Directory Structure
 
+## API Directory Structure
+
 `/` - all code files <br>
 `/config` - all configuration files <br>
 `/controllers` - all controllers files <br>
 `/models` - all database models files <br>
 `/routes` - all routes files <br>
 `/static` - all static files <br>
-`/client` - all react app files <br>
-`/client/src` - all react app code files <br>
-`/client/src/components`- all react components files <br>
-`/client/src/helpers` - all helpers files <br>
-`/client/src/styles` - all SCSS styles files <br>
+
+## React App Repository directory Structure
+
+React App repository (https://github.com/dheerajk7/admitKard-text-search-react-app)
+
+`/` - all react app files <br>
+`/src` - all react app code files <br>
+`/src/components`- all react components files <br>
+`/src/helpers` - all helpers files <br>
+`/src/styles` - all SCSS styles files <br>
 
 ---

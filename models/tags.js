@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// creating employee model
+// creating tags schema which have reference of all the question that belongs to one tag
 const tagsSchema = new mongoose.Schema({
   tag: {
     type: String,
@@ -8,7 +8,7 @@ const tagsSchema = new mongoose.Schema({
   },
   queries: [
     {
-      type: mongoose.Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.ObjectId, //reference of question
       ref: "Queries",
     },
   ],
