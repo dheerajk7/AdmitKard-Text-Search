@@ -1,7 +1,7 @@
 # Text Search
 
 It is a full stack text search app working as search bar for seaching query based on the tags and query string.
-This repository only contains API and React App is there at https://github.com/dheerajk7/admitKard-text-search-react-app.git .
+This repository contains Rest API and React App is there at https://github.com/dheerajk7/admitKard-text-search-react-app.git .
 
 # Preview
 
@@ -46,7 +46,7 @@ This repository only contains API and React App is there at https://github.com/d
    npm start
    ```
 
-4. Go to React APP (https://github.com/dheerajk7/admitKard-text-search-react-app) and clone that repository and run following commands to run react app
+4. Clone React APP (https://github.com/dheerajk7/admitKard-text-search-react-app) and run following commands to run react app
 
    #### To install node Modules
 
